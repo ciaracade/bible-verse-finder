@@ -1,5 +1,8 @@
 from flask import Flask
 from routes import verseSearch
+import nltk
+
+nltk.download('gutenberg')
 
 app = Flask(__name__)
 
